@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar a.active {
-    background-color: goldenrod;
+    background-color: black;
     color: white;
 }
 
