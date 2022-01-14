@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rajdhani:wght@300&family=Rubik:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
     margin: 0;
@@ -7,6 +7,7 @@ body {
 }
 
 .sidebar {
+    font-family: 'Press Start 2P', cursive;
     margin: 0;
     padding: 0;
     width: 200px;
@@ -34,9 +35,7 @@ body {
 }
 
 div.content {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Rajdhani', sans-serif;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     margin-left: 200px;
     padding: 1px 16px;
     height: 1000px;
