@@ -6,6 +6,16 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
 .sidebar {
     font-family: 'Press Start 2P', cursive;
     margin: 0;
