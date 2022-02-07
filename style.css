@@ -97,3 +97,15 @@ td {
         float: none;
     }
 }
+
+.kepek{
+    float: left;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 200px;
+    margin:20px;
+    transition: 1s;
+}
