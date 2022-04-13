@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelenetkezes</title>
+</head>
+<body>
+
+    <fieldset style="width: 50%;">
+        <legend>Bejelenetkezés</legend>
+            <label for="">Add meg az adataidat</label>
+            <input type="text" name="felhaszn" id="username" placeholder="Felhasználónév">
+            <input type="text" name="jelsz"  id="password" placeholder="Jelszó">
+            <button id="button" onclick="Bejelenetkezes()">Bejelenetkezes</button>
+    </fieldset>
+
+    <p id="user">A felhasználóneved: </p>
+    <p id="pass">A jelszavad: </p>
+
+    <button onclick="adatok()">Kattintas</button>
+
+    <script>
+        function adatok(){
+            document.getElementById("user").innerHTML = localStorage.getItem("Felhasználónév");
+            document.getElementById("pass").innerHTML = localStorage.getItem("Jelszó");
+        }
+        function Bejelenetkezes(){
+            localStorage.setItem('Felhasználónév', username.value);
+            localStorage.setItem('Jelszó', password.value);
+        }
+    </script>
+
+</body>
+</html>

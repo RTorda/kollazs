@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemtom</title>
+    <style>
+        fieldset{
+            width: 235px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pitagorasz</h1>
+    <fieldset>
+    <legend>Pitagorasz</legend>
+    <input type="number" id="a"><br>
+    <input type="number" id="b"><br>
+    <input type="text" id="eredmeny">
+    <button onclick="pitagorasz()">Pitagorasz</button>
+    </fieldset>
+    <script>
+    function pitagorasz (){
+        eredmeny.value = Math.sqrt(a.value * a.value + b.value * b.value)
+    }
+    </script>
+</body>
+</html>
