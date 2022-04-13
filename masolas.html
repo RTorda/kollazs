@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="sidebar">
+        <a href="https://rtorda.github.io/kollazs/index.html">Főoldal</a>
+        <a href="https://rtorda.github.io/kollazs/keplink.html">Képlink</a>
+        <a href="https://rtorda.github.io/kollazs/listak.html">Listák</a>
+        <a href="https://rtorda.github.io/kollazs/tablazat.html">Táblázat</a>
+        <a href="https://rtorda.github.io/kollazs/orarend.html">Órarend</a>
+        <a href="https://rtorda.github.io/kollazs/evszakok.html">Évszakok</a>
+        <a href="https://rtorda.github.io/kollazs/urlap.html">Űrlap</a>
+        <a href="https://rtorda.github.io/kollazs/szamologep.html">Számológép</a>
+        <a href="https://rtorda.github.io/kollazs/pitagorasz.html">Pitagorasz</a>
+        <a href="https://rtorda.github.io/kollazs/regisztracio.html">Regisztracio</a>
+        <a href="https://rtorda.github.io/kollazs/bejelentkezes.html">Bejelentkezes</a>
+        <a class="active">Másolás</a>
+    </div>
+
+    <div class="content">
+
+        <input type="text" id="beir" placeholder="Irj be valamit!">
+        <input type="button" onclick="masolas()" value="Másolás">
+        <input type="text" id="eredmeny">
+
+    </div>
+
+    <script>
+        function masolas(){
+            eredmeny.value = beir.value
+        }
+    </script>
+
+    <div class="footer">
+        <p>Rajna Torda</p>
+    </div>
+
+</body>
+</html>
