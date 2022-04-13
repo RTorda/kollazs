@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Számoló</title>
-    <style>
-        .szamologep{
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
 
@@ -33,12 +28,15 @@
     <div class="szamologep">
 
 <br><br><br><br><br><br>
+<fieldset style="width: 150px;">
+<legend>Számológép</legend>
 <input type="number" id="x"><br>
 <input type="number" id="y"><br>
 <button onclick="osszeadas(x.value,y.value)">Összeadás</button><span id="osszeado"></span><br>
 <button onclick="kivonas(x.value,y.value)">Kivonás</button><span id="kivono"></span><br>
 <button onclick="szorzas(x.value,y.value)">Szorzás</button><span id="szorzo"></span><br>
 <button onclick="osztas(x.value,y.value)">Osztás</button><span id="oszto"></span><br>
+</fieldset>
 <script>
 
 function osszeadas(x,y){
